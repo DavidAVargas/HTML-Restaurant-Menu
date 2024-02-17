@@ -18,9 +18,9 @@ li {
 }
 
 img {
-    width: 100%;
+    width: 60%;
     height: auto;
-    max-width: 100%;
+    max-width: 60%;
 }
 
 main {
@@ -84,3 +84,145 @@ th {
     border: 1px solid black;
     padding: 5px;
 }
+nav {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        #Menu,
+        #Gallery,
+        #Contact {
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+
+        .menu-item {
+            margin-bottom: 20px;
+        }
+
+        .gallery-image {
+            width: 100%;
+            max-width: 400px;
+            margin: 10px;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            text-align: left;
+        }
+ table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+        /* my code */
+        nav {
+            background: rgba(18, 1, 66, 0.761);
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: green;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        #Menu,
+        #Gallery,
+        #Contact {
+            padding: 20px;
+            color: green;
+            text-align: center;
+        }
+
+        .menu-item {
+            margin-bottom: 20px;
+        }
+
+        #Drinks,
+        #Desserts {
+            padding: 20px;
+            color: green;
+            text-align: center;
+        }
+
+        .menu-item .price {
+            font-weight: bold;
+        }
+
+
+        .gallery-image {
+            width: 100%;
+            max-width: 400px;
+            margin: 10px;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            text-align: left;
+        }
+ table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        #Contact {
+            background-color: rgba(18, 1, 66, 0.581);
+            
+        }
